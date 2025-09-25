@@ -12,7 +12,7 @@ import { useOutsideClickClose } from './hooks/useOutsideClickClose';
 import styles from './Select.module.scss';
 
 type SelectProps = {
-	selected: OptionType | null;
+	selected?: OptionType | null;
 	options: OptionType[];
 	placeholder?: string;
 	onChange?: (selected: OptionType) => void;
